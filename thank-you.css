@@ -11,12 +11,14 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  margin: 130px 30px;
+  margin: 110px auto;
   background-color: hsl(213, 19%, 18%);
   border-radius: 15px;
   padding: 25px;
   align-items: center;
   justify-content: center;
+  max-width: 300px;
+
 }
 .container img {
   width: 150px;
@@ -52,8 +54,7 @@ p {
 }
 @media (min-width: 740px) {
   .container {
-    margin: 150px auto;
-    width: 25%;
-    max-width: 450px;
+    margin: 200px auto;
+    max-width: 360px;
   }
 }

@@ -11,10 +11,11 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  margin: 110px 30px;
+  margin: 110px auto;
   background-color: hsl(213, 19%, 18%);
   border-radius: 15px;
   padding: 25px;
+  max-width: 300px;
 }
 
 .star {
@@ -91,8 +92,7 @@ p {
 
 @media (min-width: 740px) {
   .container {
-    margin: 150px auto;
-    width: 30%;
-    max-width: 420px;
+    margin: 200px auto;
+    max-width: 360px;
   }
 }
